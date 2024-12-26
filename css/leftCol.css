@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+=======
+
+
+main{
+    display: grid;
+    grid-template-columns: minmax(200px,1fr) 1fr minmax(200px,1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'leftCol contentCol rightCol'
+    'leftCol contentCol rightCol'
+    'leftCol contentCol rightCol';
+    gap: 30px;
+}
+
+
+>>>>>>> 415581b (add customize css)
 /* Zona LeftCol */
 .leftCol{
     grid-area: leftCol;
@@ -5,9 +22,17 @@ display: flex;
     flex-direction: column;
     width: 300px;
     min-height: auto;
+<<<<<<< HEAD
 
 gap: 20px;
 padding: 20px;
+=======
+    gap:10px;
+
+gap: 20px;
+padding: 20px;
+width: 300px;
+>>>>>>> 415581b (add customize css)
 border-radius: 10px;
 
 }

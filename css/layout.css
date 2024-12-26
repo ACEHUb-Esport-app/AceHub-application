@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -17,6 +18,8 @@ body {
   border-bottom: 1px solid rgba(0, 255, 204, 0.1);
 }
 
+=======
+>>>>>>> 415581b (add customize css)
 /* Header Section */
 #header{
     grid-area: header;
@@ -37,7 +40,11 @@ body {
 /* General Main Styles */
 main{
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 250px 1300px 200px;
+=======
+    grid-template-columns: minmax(200px,1fr) 1fr minmax(200px,1fr);
+>>>>>>> 415581b (add customize css)
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
     'leftCol contentCol rightCol'
@@ -46,7 +53,30 @@ main{
     gap: 30px;
 }
 
+<<<<<<< HEAD
 /* General Footer Styles */
+=======
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+        "header header header"
+        "main main main"
+        "footer footer footer";
+    gap: 30px;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(90deg, rgba(13, 13, 13, 0.95), rgba(22, 22, 22, 0.95));
+    background-repeat: no-repeat;
+    padding: 15px 30px;
+    background-size: cover;
+    color: var(--color-text-light);
+    margin-top: 80px;
+  border-bottom: 1px solid rgba(0, 255, 204, 0.1);
+}
+
+* General Footer Styles */
+>>>>>>> 415581b (add customize css)
 .footer {
     grid-area: footer;
     display: flex;
@@ -156,4 +186,8 @@ main{
     background: linear-gradient(to left,transparent,var(--color-primary),transparent);
     transform: translateX(-50%);
     animation: pulseLine 3s infinite ease-in-out;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 415581b (add customize css)

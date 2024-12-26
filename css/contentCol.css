@@ -446,6 +446,7 @@ height: 100%;
     animation: pulseGlow 2s infinite;
 }
 
+<<<<<<< HEAD
 /* General esports theme */
 .esports-theme {
 
@@ -871,3 +872,5 @@ height: 100%;
     color: #0056b3; /* Text changes to match gradient */
     transform: scale(1.1); /* Slight scaling effect on hover */
 }
+=======
+>>>>>>> 415581b (add customize css)
