@@ -1,0 +1,16 @@
+/* variables.css */
+
+/* === Colors === */
+:root {
+    --color-primary: #00ffcc;
+    --color-secondary: #4cdbcf;
+    --color-background-dark: #1c1c1c;
+    --color-background-light: #2a2a2a;
+    --color-text-light: #d1d1d1;
+    --color-text-gray: #b3b3b3;
+    --color-text-hover: #ffffff;
+    --color-border: rgba(0, 255, 204, 0.3);
+    --color-shadow: rgba(0, 255, 204, 0.3);
+    --color-shadow-hover: rgba(0, 255, 204, 0.5);
+}
+
