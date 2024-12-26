@@ -1,0 +1,192 @@
+@keyframes fadeInNav {
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 10px var(--color-shadow);
+    }
+    50% {
+        box-shadow: 0 0 20px var(--color-shadow-hover);
+    }
+    100% {
+        box-shadow: 0 0 10px var(--color-shadow);
+    }
+}
+
+
+@keyframes fadeInDropdown{
+    from{
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+
+}
+
+@keyframes gradient-flow {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+
+@keyframes pulsate {
+    0%{
+        box-shadow: 0 0 15px rgba(0,255,204,0.6);
+    }
+    50%{
+        box-shadow: 0 0 20px rgba(0,255,204,0.8);
+    }
+    100%{
+        box-shadow: 0 0 15px rgba(0,255,204,0.6);
+    }
+
+}
+
+@keyframes pulse {
+    0% { text-shadow: 0 0 8px rgba(0, 255, 204, 0.3); }
+    50% { text-shadow: 0 0 15px rgba(0, 255, 204, 0.6); }
+    100% { text-shadow: 0 0 8px rgba(0, 255, 204, 0.3); }
+  }
+
+
+  @keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+@keyframes pulseScore {
+    0% {
+        text-shadow: 0 0 5px rgba(0, 255, 204, 0.5);
+    }
+    50% {
+        text-shadow: 0 0 10px rgba(0, 255, 204, 1);
+    }
+    100% {
+        text-shadow: 0 0 5px rgba(0, 255, 204, 0.5);
+    }
+}
+
+
+@keyframes glow-pulse {
+    from{
+        box-shadow: 0 0 10px rgba(0,255,204,0.2);
+    }
+    to{
+           box-shadow: 0 0 20px rgba(0,255,204,0.4);
+    }
+
+}
+
+
+@keyframes bounceIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    60% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    from, to {
+        border-right: 2px solid transparent;
+    }
+    50% {
+        border-right: 2px solid #00ffcc;
+    }
+}
+
+@keyframes glowPulse {
+    from {
+        text-shadow: 0 0 8px rgba(0, 255, 204, 0.5);
+    }
+    to {
+        text-shadow: 0 0 15px rgba(0, 255, 204, 1), 0 0 20px rgba(0, 255, 204, 0.7);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideLines {
+    from {
+        transform: scaleX(1);
+    }
+    to {
+        transform: scaleX(1.2);
+    }
+}
+
+@keyframes rotateGlow{
+    0%{transform: rotate(0deg); }
+    100%{transform: rotate(360deg);}
+    
+}
+
+@keyframes pulseGlow{
+    0%,100%{opacity: 0.8;}
+    50%{opacity: 1;filter: brightness(1.2);}
+}
+
+@keyframes moveLine {
+    0%{
+        left: -50%;
+    }
+    100%{
+        left: 50%;
+    }
+}
+
+@keyframes pulseLine {
+    0%,100%{
+        opacity: 0.5%;
+    }
+    50%{
+        opacity: 1;
+    }
+}

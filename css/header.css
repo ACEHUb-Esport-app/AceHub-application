@@ -1,0 +1,196 @@
+/* Logo Styles */
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #00ffcc;
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+}
+
+.logo img{
+    width: 50px;
+    height: auto;
+    filter: drop-shadow(0 0 10px #00bfa6);
+}
+
+.logo h1{
+    font-size: 2rem;
+    color: var(--color-primary);
+    font-weight: bold;
+    text-shadow: 0 0 8px var(--color-shadow),0 0 15px var(--color-shadow-hover);
+    transition: color 0.3s ease,text-shadow 0.3s ease;
+    animation: pulse 5s infinite;
+}
+
+.logo h1:hover{
+    color:#4cdbcf;
+    text-shadow: 0 0 15px rgba(76,219,207,1),0 0 30px rgba(76,219,207,0.7);
+   
+}
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    background: linear-gradient(135deg, var(--color-background-dark),var(--color-background-light));
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+    text-shadow: 0 0 8px rgba(0, 255, 204, 0.8);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 255, 204, 0.2);
+    z-index: 1000;
+    padding: 10px 0;
+    min-width: 160px;
+    
+}
+
+.dropdown-content a {
+    display: block;
+    color: #d1d1d1;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background: rgba(0, 255, 204, 0.2);
+    color: #00ffcc;
+}
+
+/* Navigation Styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(13, 13, 13, 0.98), rgba(18, 18, 18, 0.95));
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(0, 255, 204, 0.1);
+    padding: 12px 24px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a{
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    position: relative;
+    letter-spacing: 1px;
+    transform: scale(1.1);
+    color: var(--color-secondary);
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.8);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav ul li a::after{
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg,#00ffcc,#4cdbcf);
+    transition: width 0.4s ease-in-out;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+nav ul li a:hover{
+color: var(--color-primary);
+text-shadow: 0 0 8px rgba(0,255,204,0.8);    
+}
+
+nav ul li a.active{
+    background: rgba(0,255,204,0.15);
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-shadow: 0 0 10px rgba(0,255,204,0.3);
+    transition: background 0.3s ease,box-shadow 0.3s ease;
+    }
+
+
+/* User Actions */
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1a;
+    border:1px solid #333333;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0,255,204,0.3);
+    overflow: hidden;
+}
+
+.search-bar button:hover {
+    background: #4cdbcf;
+    transform: scale(1.1);
+  }
+
+.search-bar input{
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #d1d1d1;
+    outline: none;
+    flex: 1;
+}
+
+.search-bar input::placeholder{
+    color:#666666;
+    font-style: italic;
+}
+
+.search-bar button{
+    background: #00ffcc;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease,transform 0.3s ease;
+}
+
+.search-bar button:hover{
+    background: #4cdbcf;
+    transform: scale(1.1);
+}
+
