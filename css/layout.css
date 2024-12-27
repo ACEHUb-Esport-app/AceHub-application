@@ -1,3 +1,22 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+        "header header header"
+        "main main main"
+        "footer footer footer";
+    gap: 30px;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(90deg, rgba(13, 13, 13, 0.95), rgba(22, 22, 22, 0.95));
+    background-repeat: no-repeat;
+    padding: 15px 30px;
+    background-size: cover;
+    color: var(--color-text-light);
+    margin-top: 80px;
+  border-bottom: 1px solid rgba(0, 255, 204, 0.1);
+}
+
 /* Header Section */
 #header{
     grid-area: header;
@@ -27,26 +46,7 @@ main{
     gap: 30px;
 }
 
-body {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-        "header header header"
-        "main main main"
-        "footer footer footer";
-    gap: 30px;
-    font-family: 'Orbitron', sans-serif;
-    background: linear-gradient(90deg, rgba(13, 13, 13, 0.95), rgba(22, 22, 22, 0.95));
-    background-repeat: no-repeat;
-    padding: 15px 30px;
-    background-size: cover;
-    color: var(--color-text-light);
-    margin-top: 80px;
-  border-bottom: 1px solid rgba(0, 255, 204, 0.1);
-}
-
-* General Footer Styles */
+/* General Footer Styles */
 .footer {
     grid-area: footer;
     display: flex;

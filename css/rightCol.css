@@ -1,23 +1,16 @@
-main{
-    display: grid;
-    grid-template-columns: minmax(200px,1fr) 1fr minmax(200px,1fr);
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    'leftCol contentCol rightCol'
-    'leftCol contentCol rightCol'
-    'leftCol contentCol rightCol';
-    gap: 30px;
-}
-
-
 /* Right Column */
 .rightCol{
-    display: flex;
+  grid-area: rightCol;
+display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 20px;
     width: 300px;
-    border-radius: 10px;
+    min-height: auto;
+    gap:10px;
+
+gap: 20px;
+padding: 20px;
+width: 300px;
+border-radius: 10px;
 
 
 }
