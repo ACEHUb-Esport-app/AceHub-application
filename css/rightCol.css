@@ -1,7 +1,7 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 /* Right Column */
-.rightCol{
+.rightCol 
+{
   grid-area: rightCol;
   display: flex;
       flex-direction: column;
@@ -10,9 +10,7 @@
       gap:10px;
   padding: 20px;
   border-radius: 10px;
-=======
-=======
->>>>>>> origin/task-3-add-events
+}
 main{
     display: grid;
     grid-template-columns: minmax(200px,1fr) 1fr minmax(200px,1fr);
@@ -33,12 +31,6 @@ main{
     padding: 20px;
     width: 300px;
     border-radius: 10px;
-<<<<<<< HEAD
->>>>>>> 415581b (add customize css)
-=======
->>>>>>> origin/task-3-add-events
-
-
 }
 .news-container{
     display: flex;

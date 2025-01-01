@@ -138,8 +138,7 @@
     cursor: pointer;
     margin-left: 10px;
     text-shadow: 0 0 8px rgba(0, 255, 204, 0.8);
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 }
 
 .btn-edit,
@@ -204,8 +203,5 @@
 
 .btn-submit-event:hover {
     background-color: #218838;
-=======
->>>>>>> 415581b (add customize css)
-=======
->>>>>>> origin/task-3-add-events
+
 }
