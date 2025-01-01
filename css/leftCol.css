@@ -1,5 +1,8 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/task-3-add-events
 
 
 main{
@@ -14,7 +17,10 @@ main{
 }
 
 
+<<<<<<< HEAD
 >>>>>>> 415581b (add customize css)
+=======
+>>>>>>> origin/task-3-add-events
 /* Zona LeftCol */
 .leftCol{
     grid-area: leftCol;
@@ -23,16 +29,22 @@ display: flex;
     width: 300px;
     min-height: auto;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 gap: 20px;
 padding: 20px;
 =======
+=======
+>>>>>>> origin/task-3-add-events
     gap:10px;
 
 gap: 20px;
 padding: 20px;
 width: 300px;
+<<<<<<< HEAD
 >>>>>>> 415581b (add customize css)
+=======
+>>>>>>> origin/task-3-add-events
 border-radius: 10px;
 
 }
