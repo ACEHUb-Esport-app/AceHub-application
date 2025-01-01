@@ -1,16 +1,13 @@
 /* Right Column */
 .rightCol{
   grid-area: rightCol;
-display: flex;
-    flex-direction: column;
-    width: 300px;
-    min-height: auto;
-    gap:10px;
-
-gap: 20px;
-padding: 20px;
-width: 300px;
-border-radius: 10px;
+  display: flex;
+      flex-direction: column;
+      width: 300px;
+      min-height: auto;
+      gap:10px;
+  padding: 20px;
+  border-radius: 10px;
 
 
 }

@@ -37,7 +37,7 @@ body {
 /* General Main Styles */
 main{
     display: grid;
-    grid-template-columns: minmax(200px,1fr) 1fr minmax(200px,1fr);
+    grid-template-columns: 250px 1300px 200px;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: 
     'leftCol contentCol rightCol'
